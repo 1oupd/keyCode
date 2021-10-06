@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Exo+2:wght@800&family=Public+Sans:wght@600&display=swap");
+
+body {
+    display: flex; 
+}
+
+h1 {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    
+}
+h1,h2,h3,h4,h5,p {
+    font-family: comfortaa, sans serif;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.num {
+    display: flex;
+    width: 80%;
+}
+
+.num h2{
+    font-size: 200px;
+    justify-self: flex-start;
+}
+
+.keybox, .locbox, .whibox, .codbox {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+}
+
+#keyh, #loch, #whih, #codh {
+    color: #49739C;
+    font-family: comfortaa, sans serif;
+}
