@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,p {
 }
 
 .num h2{
-    font-size: 200px;
+    font-size: 50px;
     justify-self: flex-start;
 }
 
